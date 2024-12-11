@@ -1,0 +1,21 @@
+:root{
+  --cor-principal: rgb(32, 122, 131);
+  --fundo: rgb(6, 20, 24);
+  --fundo2: rgb(7, 33, 42);
+  --texto: rgb(209, 208, 197);
+}
+
+body{
+  background: linear-gradient(to top, var(--fundo), var(--fundo2));
+  min-height: 100vh;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Arial";
+  font-size: 1em;
+  color: var(--texto);
+}
+
+a{
+  text-decoration: none;
+  all: unset;
+}
